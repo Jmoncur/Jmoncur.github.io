@@ -1,5 +1,6 @@
 html,body { font-family: 'PT Sans', sans-serif;
-  margin: 6px
+  margin: 6px;
+  background-color: gold
   }
 
 h3, p { margin:0px
