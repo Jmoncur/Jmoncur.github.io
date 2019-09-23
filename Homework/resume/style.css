@@ -1,3 +1,55 @@
+h3, p { margin:0px
+
+}
 h1 {
   background-color: red;
+
+}
+#position { margin-top: 4
+            }
+#ROLE {  margin: 10px
+
+}
+#cololink { color: #eca1a6
+
+}
+body { margin: 6px
+ }
+
+
+#lowlife { color: red
+
+}
+
+#SmilePhoto {
+  width: 400px
+})
+
+#lovely {
+  color: red;
+
+}
+
+a, a:link {
+  color: #F9423A;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #3D9970;
+
+}
+
+a:active {
+  background-color: green;
+}
+
+.spacing {
+  margin-right: 30px;
+}
+#logo {margin:4px
 }
