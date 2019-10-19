@@ -12,6 +12,7 @@ html,body{
 
 section.grid-sub1 {
     grid-area: grid-Sub1;
+    margin: 400px;
 }
 
 section.grid-sub2 {
