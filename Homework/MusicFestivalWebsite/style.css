@@ -22,14 +22,14 @@ section.grid-sub2 {
 
 }
 
-.grid2{
+.grid2 {
     display: grid;
     grid-gap: 1.4rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "grid-grid_Image1 grid-grid_Image2 grid-grid_Image3";
 }
 
-section.grid-grid_Image1{
+section.grid_Image1{
     grid-area: grid_Image1;
 
 }
