@@ -1,0 +1,23 @@
+html,body{
+    background-color: #36486b;
+}
+.grid1{
+    display: grid;
+    grid-gap: 2.4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "grid-Sub2 grid-Sub1 grid-sub3";
+
+}
+
+
+section.grid-sub1 {
+
+    grid-area: grid-Sub1;
+
+}
+
+section.grid-sub2 {
+
+    grid-area: grid-Sub2;
+
+}
