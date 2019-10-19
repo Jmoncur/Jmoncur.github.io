@@ -3,40 +3,24 @@ html,body{
 }
 .grid1{
     display: grid;
-    grid-gap: 2.4rem;
+    grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "grid-Sub1 grid-sub2 grid-sub3";
+    grid-template-areas: "grid-sub1 grid-sub2 grid-sub3";
 
 }
 
 
-section.grid-sub1 {
-    grid-area: grid-Sub1;
-    margin: 400px;
-}
-
-section.grid-sub2 {
-
-    grid-area: grid-Sub2;
-
-}
-.grid2 {
+.grid2{
     display: grid;
-    grid-gap: 1.4rem;
+    grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "grid-grid_Image1 grid-grid_Image2 grid-grid_Image3";
-}
-
-section.grid_Image1{
-    grid-area: grid_Image1;
+    grid-template-areas: "grid-image1 grid-image2 grid-image3";
 
 }
 
-section.grid_Image2{
-    grid-area: grid_Image2;
-}
-
-section.grid_Image3{
-    grid-area: grid_Image3;
-
+.grid3{
+    display:grid;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid-content1 grid-content2 grid-content3 grid-content4"
 }
