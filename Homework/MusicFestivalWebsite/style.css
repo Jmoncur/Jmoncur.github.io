@@ -34,30 +34,23 @@ section.image3{
     grid-area: image3;
 
 }
-section.grid3.content1{
-    grid-area:content1;
-    background-color: yellow;
-
-}
-
-section.grid3.content2{
+.grid3.section.content2{
     grid-area:content2;
-    background-color: orange;
+    background-color: red;
 
 }
 
-section.content1{
-    grid-area:content1;
-    background-color: white;
+.grid3.section.content3{
+    grid-area:content3;
+    background-color: purple;
+
 }
 
 .grid3 {
     display:grid;
     grid-gap: 1.4rem;
-    grid-row-end: 1.4rem;
+    grid-row-gap: 1.4rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "grid3-content1 grid3-content2 grid-3-content2 grid3-content2"
-    "grid3-content1 grid3-content2 grid3-content2 grid3-content2"
-
+    grid-template-areas: "content2 content2 content2 content3"
 
 }
