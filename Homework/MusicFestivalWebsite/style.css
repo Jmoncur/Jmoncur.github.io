@@ -2,12 +2,15 @@ html,body{
     font-size: 21px;
     background-color: #36486b;
 }
+
 .grid_container1{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "grid1-sub1 grid1-sub2 grid1-sub3";
     text-align: center;
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
 }
 
 
@@ -19,6 +22,7 @@ html,body{
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "grid2-image1 grid2-image2 grid2-image3";
+    margin: center;
 }
 
 #Coachella2019{
@@ -44,6 +48,7 @@ html,body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "grid3-Heading1 grid3-Heading2 grid3-Heading3";
     text-align: center;
+    margin:20px;
 }
 
 .grid_container4{
@@ -54,8 +59,9 @@ html,body{
         "grid_container4-Concertsub grid_container4-Concertsub1"
         "grid_container4-Concertsub grid_container4-Concertsub1";
 
-
-
-
-
 }
+section.grid_container4-Concertsub{
+    grid-area: Concertsub;
+}
+
+.grid_container4
