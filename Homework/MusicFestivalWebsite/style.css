@@ -48,12 +48,14 @@ html,body{
 
 .grid_container4{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "grid_container4-Concertsub grid_container4-Concertsub2"
-        "grid_container4-Concertsub2 grid_container4-Concertsub2";
-    grid-gap:1.4rem;
-    grid-row-gap: 1.4rem;
+        "grid_container4-Concertsub grid_container4-Concertsub1"
+        "grid_container4-Concertsub grid_container4-Concertsub1";
+
+
+
 
 
 }
