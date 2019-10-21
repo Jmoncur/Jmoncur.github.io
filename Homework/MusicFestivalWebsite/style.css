@@ -54,3 +54,35 @@ section.content2 {
     grid-template-areas: "content2 content2 content2 content3"
     "content2 content2 content2 content2";
 }
+
+.grid_container4{
+    display: grid;
+    grid-gap: 1.4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "hey hey baby baby"
+        "hey hey baby baby"
+        "hey hey hey baby";
+
+
+
+}
+.box{
+    border:1px solid #000000;
+    font-family: monospace;
+}
+
+.You{
+    grid-area: hey;
+    background-color: yellow;
+}
+
+.Are{
+    /* grid-area: are; */
+    background-color: orange;
+}
+
+.It{
+    grid-area; baby;
+    background-color: purple;
+}
