@@ -7,13 +7,23 @@ html,body{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "grid1-sub1 grid1-sub2 grid1-sub3";
+    grid-template-areas:
+        "grid1-sub1 grid1-sub2 grid1-sub3"
+        "grid1-sub1 grid1-sub2 grid1-sub3";
     text-align: center;
     font-size: 100px;
     font-family: 'Great Vibes', cursive;
 }
 
-
+.grid_container1 .sub1 {
+    grid-area: grid1-sub1;
+}
+.grid_container1 .sub2 {
+    grid-area: grid1-sub2;
+}
+.grid_container1 .sub3 {
+    grid-area: grid1-sub3;
+}
 
 
 
@@ -54,14 +64,29 @@ html,body{
 .grid_container4{
     display: grid;
     grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "grid_container4-Concertsub grid_container4-Concertsub1"
-        "grid_container4-Concertsub grid_container4-Concertsub1";
-
-}
-section.grid_container4-Concertsub{
-    grid-area: Concertsub;
+        "miami-list miami-picture"
+        "nyc-list nyc-picture";
 }
 
-.grid_container4
+.concert_sub1 {
+    grid-area: miami-list;
+}
+
+.concert_sub2 {
+    grid-area: miami-picture;
+}
+
+.concert_sub3 {
+    grid-area: nyc-list;
+}
+
+.concert_sub4 {
+    grid-area: nyc-picture;
+}
+
+.grid_container5{
+    display:
+}
