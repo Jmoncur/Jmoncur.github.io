@@ -80,6 +80,7 @@ html,body{
     display: grid;
     grid-gap: 2rem;
     font-family: "Shadows Into Light";
+    margin: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -90,6 +91,7 @@ html,body{
 .concert_sub1 {
     grid-area: miami-list;
     text-align: center;
+    border: 2px solid yellow;
 }
 
 .concert_sub2 {
@@ -99,11 +101,14 @@ html,body{
 
 .concert_sub3 {
     grid-area: nyc-list;
+    text-align: center;
 }
 
 .concert_sub4 {
     grid-area: nyc-picture;
+    text-align: center;
 }
+
 
 .grid_container5{
     display:grid;
@@ -111,6 +116,27 @@ html,body{
     font-family: "Shadows Into Light";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "miafest-list miafest-picture"
+        "nycfest-list nycfest-picture";
+}
+
+.Festie_sub{
+    grid-area: miafest-list;
+    text-align: center;
+
+}
+.Festie_sub1{
+    grid-area: miafest-picture;
+    text-align: center;
+}
+.Festie_sub2{
+    grid-area: nycfest-list;
+    text-align: center;
+}
+.Festie_sub3{
+    grid-area: nycfest-picture;
+    text-align: center;
 }
 
 .grid_container6{
@@ -119,4 +145,28 @@ html,body{
     font-family: "Shadows Into Light";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "todo todont must"
+        "todopic todontpic tomustpic";
+}
+.Dosub{
+    grid-area: todo;
+    text-align: center;
+}
+.Dontsub{
+    grid-area: todont;
+    text-align: center;
+}
+.Mustsub{
+    grid-area: must;
+    text-align: center;
+}
+.Docontent{
+    grid-area: todopic;
+}
+.Dontcontent{
+    grid-area: todontpic;
+}
+.Mustcontent{
+    grid-area: tomustpic;
 }
