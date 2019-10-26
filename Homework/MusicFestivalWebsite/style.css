@@ -2,7 +2,22 @@ html,body{
     font-size: 21px;
     background-color: #36486b;
 }
+ #Mantra{
+     text-align: center;
+ }
 
+#Part1{
+    text-align: center;
+    font-family: "Shadows Into Light";
+}
+#Part2{
+    text-align: center;
+    font-family: "Shadows Into Light";
+}
+#Part3{
+    text-align: center;
+    font-family: "Shadows Into Light";
+}
 .grid_container1{
     display: grid;
     grid-gap: 1rem;
@@ -64,6 +79,7 @@ html,body{
 .grid_container4{
     display: grid;
     grid-gap: 2rem;
+    font-family: "Shadows Into Light";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -73,10 +89,12 @@ html,body{
 
 .concert_sub1 {
     grid-area: miami-list;
+    text-align: center;
 }
 
 .concert_sub2 {
     grid-area: miami-picture;
+    text-align: center;
 }
 
 .concert_sub3 {
@@ -88,5 +106,17 @@ html,body{
 }
 
 .grid_container5{
-    display:
+    display:grid;
+    grid-gap:2rem;
+    font-family: "Shadows Into Light";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid_container6{
+    display: grid;
+    grid-gap: 2rem;
+    font-family: "Shadows Into Light";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
