@@ -2,6 +2,9 @@ html,body{
     font-size: 21px;
     background-color: #36486b;
 }
+main{
+    color: #F4E7E7;
+}
  #Mantra{
      text-align: center;
  }
@@ -81,6 +84,7 @@ html,body{
     grid-gap: 2rem;
     font-family: "Shadows Into Light";
     margin: 20px;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -97,8 +101,18 @@ html,body{
 .concert_sub2 {
     grid-area: miami-picture;
     text-align: center;
-}
 
+}
+#Ultra{
+    display: inline-grid;
+    height: 400px;
+    width:600px;
+}
+#Peep{
+    display: inline-grid;
+    height:400px;
+    width:600px;
+}
 .concert_sub3 {
     grid-area: nyc-list;
     text-align: center;
@@ -107,6 +121,7 @@ html,body{
 .concert_sub4 {
     grid-area: nyc-picture;
     text-align: center;
+    border: 2px solid yellow;
 }
 
 
@@ -120,10 +135,18 @@ html,body{
         "miafest-list miafest-picture"
         "nycfest-list nycfest-picture";
 }
-
+#ezoonyc{
+    height: 450px;
+    width: 600px;
+}
+#Miamioutside{
+    height: 450px;
+    width: 600px;
+}
 .Festie_sub{
     grid-area: miafest-list;
     text-align: center;
+    border: 2PX solid yellow;
 
 }
 .Festie_sub1{
@@ -137,6 +160,7 @@ html,body{
 .Festie_sub3{
     grid-area: nycfest-picture;
     text-align: center;
+    border: 2px solid yellow;
 }
 
 .grid_container6{
@@ -152,14 +176,17 @@ html,body{
 .Dosub{
     grid-area: todo;
     text-align: center;
+    border: 3px solid green;
 }
 .Dontsub{
     grid-area: todont;
     text-align: center;
+    border: 3PX solid red;
 }
 .Mustsub{
     grid-area: must;
     text-align: center;
+    border: 3px solid white;
 }
 .Docontent{
     grid-area: todopic;
