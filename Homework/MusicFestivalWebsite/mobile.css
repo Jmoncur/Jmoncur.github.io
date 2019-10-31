@@ -1,0 +1,42 @@
+@media only screen and (max-width:500px) {
+    body{
+        background-color: red;
+    }
+    .grid_container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "grid2-image1"
+        "grid2-image2"
+        "grid2-image3";
+        text-align: center;
+    }
+    #Coachella2019 {
+        display: inline-grid;
+        height: 200px;
+        width:200px;
+        align-items: center;
+    }
+    #Laces{
+        display: inline-grid;
+        height: 200px;
+        width: 200px;
+
+    }
+    #Porter{
+        display: inline-grid;
+        height: 200px;
+        width: 200px;
+    }
+    .grid_container4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "miami-list miami-picture"
+        "nyc-list nyc-picture";"
+    }
+    .concert_sub1{
+        grid-area: miami-list;
+        border: 1px yellow;
+    }
+}
