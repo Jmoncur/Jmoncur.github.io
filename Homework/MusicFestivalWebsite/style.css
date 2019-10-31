@@ -2,9 +2,9 @@ html,body{
     font-size: 21px;
     background-color: #36486b;
 }
-/* main{
+main{
     color: #F4E7E7;
-} */
+}
  #Mantra{
      text-align: center;
  }
@@ -196,4 +196,5 @@ html,body{
 }
 .Mustcontent{
     grid-area: tomustpic;
+}
 }

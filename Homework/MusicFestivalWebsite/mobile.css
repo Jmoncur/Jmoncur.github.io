@@ -1,4 +1,4 @@
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:750px) {
     body{
         background-color: red;
     }
@@ -30,13 +30,106 @@
     }
     .grid_container4{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas:
-        "miami-list miami-picture"
-        "nyc-list nyc-picture";"
+        "miami-list"
+        "miami-picture"
+        "nyc-list"
+        "nyc-picture";
     }
-    .concert_sub1{
+    .concert_sub1 {
         grid-area: miami-list;
-        border: 1px yellow;
+        text-align: center;
+}
+    .concert_sub2 {
+        grid-area: miami-picture;
+        text-align: center;
+    }
+    .concert_sub3 {
+        grid-area: nyc-list;
+        text-align: center;
+    }
+    .concert_sub4 {
+        grid-area: nyc-picture;
+        text-align: center;
+
+    }
+    #Ultra{
+        display: inline-grid;
+        height: 200px;
+        width:300px;
+    }
+    #Peep{
+        display: inline-grid;
+        height:200px;
+        width:300px;
+    }
+    .grid_container5{
+        display:grid;
+        grid-gap:2rem;
+        font-family: "Shadows Into Light";
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "miafest-list"
+            "miafest-picture"
+            "nycfest-list"
+            "nycfest-picture";
+    }
+    .Festie_sub{
+        grid-area: miafest-list;
+        text-align: center;
+    }
+    .Festie_sub1{
+        grid-area: miafest-picture;
+        text-align: center;
+    }
+    .Festie_sub2{
+        grid-area: nycfest-list;
+        text-align: center;
+    }
+    .Festie_sub3{
+        grid-area: nycfest-picture;
+        text-align: center;
+    }
+    #ezoonyc{
+        height: 225px;
+        width: 300px;
+    }
+    #Miamioutside{
+        height: 225px;
+        width: 300px;
+    }
+    .grid_container6 {
+        display: grid;
+        font-family: "Shadows Into Light";
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "todo"
+            "todont"
+            "must";
+    }
+    .Dosub{
+        grid-area: todo;
+        text-align: center;
+        border: none;
+    }
+    .Dontsub{
+        grid-area: todont;
+        text-align: center;
+        border: none;
+    }
+    .Mustsub{
+        grid-area: must;
+        text-align: center;
+        border: none;
+    }
+    .Docontent{
+        display: none;
+    }
+    .Dontcontent{
+        display: none;
+    }
+    .Mustcontent{
+        display: none;
     }
 }

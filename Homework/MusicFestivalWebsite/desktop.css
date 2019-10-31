@@ -1,0 +1,138 @@
+@media only screen and (min-width:750px) and (max-width:1250px) {
+    body{
+        background-color: white;
+    }
+    main{
+        color: black;
+    }
+    .grid_container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "grid2-image1"
+        "grid2-image2"
+        "grid2-image3";
+        text-align: center;
+    }
+    #Coachella2019 {
+        display: inline-grid;
+        height: 450px;
+        width:450px;
+        align-items: center;
+    }
+    #Laces{
+        display: inline-grid;
+        height: 450px;
+        width: 450px;
+
+    }
+    #Porter{
+        display: inline-grid;
+        height: 450px;
+        width: 450px;
+    }
+    .grid_container4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "miami-list"
+        "miami-picture"
+        "nyc-list"
+        "nyc-picture";
+    }
+    .concert_sub1 {
+        grid-area: miami-list;
+        text-align: center;
+    }
+    .concert_sub2 {
+        grid-area: miami-picture;
+        text-align: center;
+    }
+    .concert_sub3 {
+        grid-area: nyc-list;
+        text-align: center;
+    }
+    .concert_sub4 {
+        grid-area: nyc-picture;
+        text-align: center;
+
+    }
+    #Ultra{
+        display: inline-grid;
+        height: 200px;
+        width:300px;
+    }
+    #Peep{
+        display: inline-grid;
+        height:200px;
+        width:300px;
+    }
+    .grid_container5{
+        display:grid;
+        font-family: "Shadows Into Light";
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "miafest-list"
+            "miafest-picture"
+            "nycfest-list"
+            "nycfest-picture";
+    }
+    .Festie_sub{
+        grid-area: miafest-list;
+        text-align: center;
+
+    }
+    .Festie_sub1{
+        grid-area: miafest-picture;
+        text-align: center;
+    }
+    .Festie_sub2{
+        grid-area: nycfest-list;
+        text-align: center;
+    }
+    .Festie_sub3{
+        grid-area: nycfest-picture;
+        text-align: center;
+    }
+    #ezoonyc{
+        height: 425px;
+        width: 500px;
+    }
+    #Miamioutside{
+        height: 425px;
+        width: 500px;
+    }
+    .grid_container6 {
+        display: grid;
+        font-family: "Shadows Into Light";
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "todo"
+            "todont"
+            "must";
+    }
+    .Dosub{
+        grid-area: todo;
+        text-align: center;
+        border: none;
+    }
+    .Dontsub{
+        grid-area: todont;
+        text-align: center;
+        border: none;
+    }
+    .Mustsub{
+        grid-area: must;
+        text-align: center;
+        border: none;
+    }
+    .Docontent{
+        display: none;
+    }
+    .Dontcontent{
+        display: none;
+    }
+    .Mustcontent{
+        display: none;
+    }
+    }
