@@ -19,7 +19,7 @@ p, #position {text-align: center;
 #ROLE {  margin: 10px
 
 }
-#cololink { color: #eca1a6
+.cololink { color: #eca1a6
 }
 
 #lowlife { color: red
@@ -56,7 +56,7 @@ a:hover{
   margin-right: 30px;
 }
 
-#logo {margin:4px
+.logo {margin:4px
 }
 
 .Contact {
