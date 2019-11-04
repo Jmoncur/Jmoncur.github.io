@@ -9,11 +9,19 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 30px;
+    font-family: "Berkshire Swash";
 }
 
 #WIT {
     width: 550px;
     height: 450px;
+}
+
+#conv {
+    text-align: center;
+    font-family: "Berkshire Swash";
+    font-size: 27px;
 }
 
 .grid_container1 {
@@ -24,11 +32,37 @@ h2 {
 }
 
 .ingresub {
+    display: inline-grid;
     grid-area: ingrelist;
     text-align: center;
+    font-size: 22px;
 }
 
 .photosub {
     grid-area: ingrephoto;
     align-content: center;
+}
+
+.grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "guacstep mixpic"
+}
+
+.prestep {}
+
+.stepstub {
+    display: inline-grid;
+    grid-area: guacstep;
+    align-content: center;
+    font-size: 22px;
+    margin: 2px;
+}
+
+.steppic {
+    display: inline-inline-grid;
+    grid-area: mixpic;
+    align-content: center;
+    margin: 2px;
 }
