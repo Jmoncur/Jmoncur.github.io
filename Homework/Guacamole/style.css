@@ -13,6 +13,16 @@ h2 {
     font-family: "Berkshire Swash";
 }
 
+nav {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 5%;
+}
+
 #WIT {
     width: 550px;
     height: 450px;
@@ -22,6 +32,21 @@ h2 {
     text-align: center;
     font-family: "Berkshire Swash";
     font-size: 27px;
+}
+
+#MAR {
+    height: 400px;
+    width: 400px;
+}
+
+#TEQ {
+    width: 400px;
+    height: 400px;
+}
+
+#QUES {
+    width: 400px;
+    height: 400px;
 }
 
 .grid_container1 {
@@ -65,4 +90,28 @@ h2 {
     grid-area: mixpic;
     align-content: center;
     margin: 2px;
+}
+
+.grid_container3 {
+    display: grid;
+    margin: 10px;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "margpic teqipic quespic"
+}
+
+.Margar {
+    display: inline-grid;
+    grid-area: margpic;
+}
+
+.Teqi {
+    display: inline-grid;
+    grid-area: teqipic;
+}
+
+.Ques {
+    display: inline-grid;
+    grid-area: quespic;
 }

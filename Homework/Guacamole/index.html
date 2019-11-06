@@ -5,11 +5,12 @@
         <meta name="Jordyn Moncur" content="Information about visiting Nice, France">
         <meta description= "This website gives step by step instruction on how to make a burrito">
         <title> Burrito Madness </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1> THIS IS JUST HOW WE ROLL </h1>
+        <h1 id="heading"> HOVER OVER ME FOR A SURPRISE </h1>
         <div>
             <nav>
                 <a href="#Part1"> Ingredients </a>
@@ -20,7 +21,7 @@
         </div>
     <main>
         <h2 id="Part1"> Ingredients </h2>
-            <div class="grid_container1">
+            <div id="first" class="grid_container1">
                 <section class="headerphoto">
                     <img> Put image that says ingredients here </img>
                 </section>
@@ -41,13 +42,13 @@
                 </section>
             </div>
         <h2 id="Part2"> Steps </h2>
-            <div class="grid_container2">
+            <div id="second"class="grid_container2">
                 <section class="prestep">
                     <p> Put an image in that says steps </p>
                 </section>
                 <section class="stepstub">
                     <ol>
-                        <li>  Grind 1 tbsp. of the onions, 1 tbsp. of the cilantro, jalapeño, and salt together in a molcajete until all the ingredients are well ground. (Alternatively, use a fork to mash the ingredients to a paste in a wide bowl.) </li>
+                        <li id="step1">  Grind 1 tbsp. of the onions, 1 tbsp. of the cilantro, jalapeño, and salt together in a molcajete until all the ingredients are well ground. (Alternatively, use a fork to mash the ingredients to a paste in a wide bowl.) </li>
                         <li> Cut avocados (about 8 ounces each) in half. Twist the halves to separate them and remove the pit with the tip of the knife. Place an avocado half, cut side up, in your palm and make 3 or 4 evenly spaced lengthwise cuts through its flesh down to the skin, without cutting through the skin. Make 4 crosswise cuts in the same fashion. </li>
                         <li> Scoop the diced avocado flesh into the molcajete. Repeat with remaining avocado halves. Gently fold the avocado into the chile-onion paste, keeping the avocado pieces fairly intact.</li>
                         <li>Add tomatoes, remaining 2 tbsp. of the cilantro, and remaining 1 tbsp. of the onions. </li>
@@ -61,17 +62,24 @@
             </div>
         <h2 id="Part3"> Guac Pairings </h2>
             <p id="conv"> PAIR YOUR GUAC WITH A DRINK OR ENTREÉ!</p>
-        <div class="grid_container3">
-            <section class="marg">
-                <p> put image of margarita </p>
+        <div id="third" class="grid_container3">
+            <section class="Margar">
+                <img id="MAR" src="images/Margarita.jpg" alt="MAR">
             </section>
             <section class="Teqi">
-                <p> put picture of tequila sunrise </p>
+                <img id="TEQ" src="images/tequila.jpg" alt="TEQ">
             </section>
             <section class="Ques">
-                <p> put picture of quesdilla </p>
+                <img id="QUES" src="images/quesadilla.jpg" alt="QUES">
             </section>
         </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                
+                })
 
+            )}
+        )
+        </script>
     </body>
 </html>
