@@ -22,19 +22,16 @@
     <main>
         <h2 id="Part1"> Ingredients </h2>
             <div id="first" class="grid_container1">
-                <section class="headerphoto">
-                    <img> Put image that says ingredients here </img>
-                </section>
                 <section class="ingresub">
                     <ul>
-                        <li> ( 4-6x) Avocado </li>
-                        <li> 3x Tomatoes </li>
-                        <li> 1x Red Onion </li>
-                        <li> Garlic* </li>
-                        <li> Cilantro </li>
-                        <li> 1x Lime </li>
-                        <li> 1x Bowl </li>
-                        <li> 1x Scooper/ Spoon </li>
+                        <li id="tablebox"> ( 4-6x) Avocado </li>
+                        <li id="tablebox"> 3x Tomatoes </li>
+                        <li id="tablebox"> 1x Red Onion </li>
+                        <li id="tablebox"> Garlic* </li>
+                        <li id="tablebox"> Cilantro </li>
+                        <li id="tablebox"> 1x Lime </li>
+                        <li id="tablebox"> 1x Bowl </li>
+                        <li id="tablebox"> 1x Scooper/ Spoon </li>
                     </ul>
                 </section>
                 <section class="photosub">
@@ -43,9 +40,6 @@
             </div>
         <h2 id="Part2"> Steps </h2>
             <div id="second"class="grid_container2">
-                <section class="prestep">
-                    <p> Put an image in that says steps </p>
-                </section>
                 <section class="stepstub">
                     <ol>
                         <li id="step1">  Grind 1 tbsp. of the onions, 1 tbsp. of the cilantro, jalapeño, and salt together in a molcajete until all the ingredients are well ground. (Alternatively, use a fork to mash the ingredients to a paste in a wide bowl.) </li>
@@ -62,24 +56,96 @@
             </div>
         <h2 id="Part3"> Guac Pairings </h2>
             <p id="conv"> PAIR YOUR GUAC WITH A DRINK OR ENTREÉ!</p>
+        <div class="grid_container4">
+            <section id="NOM" class="Click1">
+                <p> CLICK HERE </p>
+            </section>
+            <section id="YUM" class="Click2">
+                <p>CLICK HERE</p>
+            </section>
+            <section id="BUM" class="Click3">
+                <p> CLICK HERE </p>
+            </section>
+        </div>
         <div id="third" class="grid_container3">
             <section class="Margar">
                 <img id="MAR" src="images/Margarita.jpg" alt="MAR">
+                <p id="marghead"> HOW TO MAKE A MARGARITA! </p>
+                    <ol id="recepie1">
+                        <li> Prepare your glass by taking a wedge of lime, running it along the rim of the glass, then dip the glass into salt or sugar.</li>
+                        <li> Add some ice to your cocktail shaker. This will make your drink nice and cold.</li>
+                        <li> Combine the ingredients into the cocktail shaker. Pour in the tequila, triple sec, and fresh lime juice. </li>
+                        <li> Give it a shake! </li>
+                        <li> Taste and add sweetener as desired. Instructions for a simple syrup or agave follow </li>
+                        <li> Add some ice to your prepared glass and pour! Keep the strainer on your cocktail shaker so that the drink is strained while you pour it in</li>
+                        <li>Garnish with a lime wedge.</li>
+                    </ol>
             </section>
             <section class="Teqi">
                 <img id="TEQ" src="images/tequila.jpg" alt="TEQ">
+                <p id="teqhead"> HOW TO MAKE A TEQUILA SUNRISE! </p>
+                    <ol id="recepie2">
+                        <li> First, in a highball glass filled with ice, pour in the tequila, lime juice, and orange juice. Then give everything a good stir. </li>
+                        <li> Now for the magic. Slowly pour the grenadine into the glass over the back of a spoon or by drizzling it down the side of the glass, allowing it to settle at the bottom. Don’t stir! You want the drink to look like a sunrise. </li>
+                    </ol>
             </section>
             <section class="Ques">
                 <img id="QUES" src="images/quesadilla.jpg" alt="QUES">
+                <p id="queshead"> HOW TO MAKE A QUESIDILLA! </p>
+                <ol id="recepie3">
+                    <li> Heat vegetable oil in a large pan over medium heat. Sauté onions until soft. Add ground beef and spices, breaking up the meat with a wooden spoon. Stir occasionally and sauté until the meat cooked through. Remove pan from heat and drain excess fat. Season mixture with salt and pepper to taste. Clean pan and return over medium heat.</li>
+                    <li> Meanwhile, assembly quesadillas. Sprinkle cheese onto 4 flour tortillas. Top with beef mixture, avocado and cilantro. Top each tortilla with a second tortilla. </li>
+                    <li> Working one at a time, transfer quesadillas to the heated pan. Cook until golden-brown, about 3 minutes. When ready to flip, cover the pan with a large plate. Invert pan to transfer the quesadilla onto the plate, then slide the quesadilla back onto the pan (golden side up). Cook until golden-brown. Slice into triangles and serve warm. </li>
+                </ol>
             </section>
         </div>
         <script type="text/javascript">
             $(document).ready(function() {
-                
-                })
-
-            )}
-        )
+                $("#heading").mouseover(function(){
+                    $("#heading").html("LOL REALLY?????");
+                    $("#heading").css("color", "black");
+                });
+                $("#heading").mouseleave(function(){
+                    $("#heading").html("HOVER OVER ME FOR GUAC");
+                    $("#heading").css("color", "red");
+                });
+                $("#NOM").click(function(){
+                    $("#MAR").hide();
+                });
+                $("#NOM").click(function(){
+                    $("#recepie1").show();
+                });
+                $("#NOM").click(function(){
+                    $("#marghead").show();
+                });
+                $("#NOM").click(function(){
+                    $("#NOM").hide();
+                });
+                $("#YUM").click(function(){
+                    $("#TEQ").hide();
+                });
+                $("#YUM").click(function(){
+                    $("#YUM").hide();
+                });
+                $("#YUM").click(function(){
+                    $("#recepie2").show();
+                });
+                $("#YUM").click(function(){
+                    $("#teqhead").show();
+                });
+                $("#BUM").click(function(){
+                    $("#BUM").hide();
+                });
+                $("#BUM").click(function(){
+                    $("#QUES").hide();
+                });
+                $("#BUM").click(function(){
+                    $("#recepie3").show();
+                });
+                $("#BUM").click(function(){
+                    $("#queshead").show();
+                });
+            })
         </script>
     </body>
 </html>

@@ -26,6 +26,7 @@ nav a {
 #WIT {
     width: 550px;
     height: 450px;
+    border: 2px solid darkgreen;
 }
 
 #conv {
@@ -47,6 +48,37 @@ nav a {
 #QUES {
     width: 400px;
     height: 400px;
+}
+
+#recepie1 {
+    display: none;
+}
+
+#marghead {
+    display: none;
+    text-align: center;
+}
+
+#teqhead {
+    display: none;
+    text-align: center;
+}
+
+#queshead {
+    display: none;
+    text-align: center;
+}
+
+#recepie2 {
+    display: none;
+}
+
+#recepie3 {
+    display: none;
+}
+
+#tablebox {
+    margin-bottom: 28px;
 }
 
 .grid_container1 {
@@ -114,4 +146,33 @@ nav a {
 .Ques {
     display: inline-grid;
     grid-area: quespic;
+}
+
+.grid_container4 {
+    display: grid;
+    grid-gap: 2rem;
+    font-family: "Berkshire Swash";
+    color: red;
+    text-decoration: underline;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "cli1 cli2 cli3";
+}
+
+.Click1 {
+    grid-area: cli1;
+    display: inline-grid;
+    text-align: center;
+}
+
+.Click2 {
+    grid-area: cli2;
+    display: inline-grid;
+    text-align: center;
+}
+
+.Click3 {
+    grid-area: cli3;
+    display: inline-grid;
+    text-align: center;
 }
