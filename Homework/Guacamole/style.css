@@ -22,7 +22,7 @@ nav {
     width: 800px;
     margin-top: 35px;
     text-align: center;
-    font-style: bold;
+    font: bold;
     font-family: 'Merienda', cursive;
 }
 
@@ -144,7 +144,6 @@ nav a {
 .prestep {}
 
 .stepstub {
-    display: inline-grid;
     grid-area: guacstep;
     text-align: center;
     font-size: 22px;
@@ -152,7 +151,6 @@ nav a {
 }
 
 .steppic {
-    display: inline-inline-grid;
     grid-area: mixpic;
     align-content: center;
     margin: 2px;
