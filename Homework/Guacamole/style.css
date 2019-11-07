@@ -3,11 +3,14 @@ html, body {
 }
 
 h1 {
-    color: lightpink;
+    color: black;
     text-align: center;
+    font-size: 50px;
+    font-family: "Berkshire Swash";
 }
 
 h2 {
+    margin-top: 50px;
     text-align: center;
     font-size: 30px;
     font-family: "Berkshire Swash";
@@ -15,8 +18,11 @@ h2 {
 
 nav {
     margin: 0 auto;
-    width: 700px;
+    width: 800px;
+    margin-top: 35px;
     text-align: center;
+    font-style: bold;
+    font-family: 'Merienda', cursive;
 }
 
 nav a {
@@ -26,7 +32,11 @@ nav a {
 #WIT {
     width: 550px;
     height: 450px;
-    border: 2px solid darkgreen;
+    border: 5px solid darkgreen;
+}
+
+#MIX {
+    border: 4px solid darkgreen;
 }
 
 #conv {
@@ -52,37 +62,54 @@ nav a {
 
 #recepie1 {
     display: none;
+    text-align: center;
+    font-family: 'Merienda', cursive;
 }
 
 #marghead {
     display: none;
     text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 18px;
 }
 
 #teqhead {
     display: none;
     text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 18px;
 }
 
 #queshead {
     display: none;
     text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 18px;
 }
 
 #recepie2 {
     display: none;
+    text-align: center;
+    font-family: 'Merienda', cursive;
 }
 
 #recepie3 {
     display: none;
+    text-align: center;
+    font-family: 'Merienda', cursive;
 }
 
 #tablebox {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+}
+
+#step1 {
+    margin-bottom: 8px;
 }
 
 .grid_container1 {
     display: grid;
+    margin-top: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "ingrelist ingrephoto";
@@ -92,7 +119,8 @@ nav a {
     display: inline-grid;
     grid-area: ingrelist;
     text-align: center;
-    font-size: 22px;
+    font-size: 21px;
+    font-family: 'Merienda', cursive;
 }
 
 .photosub {
@@ -102,6 +130,8 @@ nav a {
 
 .grid_container2 {
     display: grid;
+    grid-gap: 1rem;
+    margin: 40px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "guacstep mixpic"
@@ -112,9 +142,9 @@ nav a {
 .stepstub {
     display: inline-grid;
     grid-area: guacstep;
-    align-content: center;
+    text-align: center;
     font-size: 22px;
-    margin: 2px;
+    font-family: 'Merienda', cursive;
 }
 
 .steppic {
