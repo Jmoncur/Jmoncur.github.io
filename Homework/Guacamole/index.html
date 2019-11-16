@@ -5,10 +5,15 @@
         <meta name="Jordyn Moncur" content="Information about visiting Nice, France">
         <meta description= "This website gives step by step instruction on how to make a bowl of gucamole">
         <title> Guac Madness </title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="jquery.powertip.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.powertip.css" />
         <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <h1 id="heading"> ENTER THE WORLD OF GUAC </h1>
@@ -20,7 +25,8 @@
             </nav>
         </div>
     <main>
-        <h2 id="Part1"> Ingredients </h2>
+                <h2 id="#Part2"> Ingredients</h2>
+    </section>
             <div id="first" class="grid_container1">
                 <section class="ingresub">
                     <ul>
@@ -69,7 +75,8 @@
         </div>
         <div id="third" class="grid_container3">
             <section class="Margar">
-                <img id="MAR" src="images/Margarita.jpg" alt="MAR">
+            <a data-fancybox ="gallery" href="Images/Margarita.jpg">
+            <img id="MAR" src="Images/Margarita.jpg" alt="Margarita"></a>
                 <p id="marghead"> HOW TO MAKE A MARGARITA! </p>
                     <ol id="recepie1">
                         <li> Prepare your glass by taking a wedge of lime, running it along the rim of the glass, then dip the glass into salt or sugar.</li>
@@ -82,7 +89,7 @@
                     </ol>
             </section>
             <section class="Teqi">
-                <img id="TEQ" src="images/tequila.jpg" alt="TEQ">
+                <a data-fancybox ="gallery" href="Images/tequila.jpg"><img id="TEQ" src="Images/tequila.jpg" alt="TEQ"></a>
                 <p id="teqhead"> HOW TO MAKE A TEQUILA SUNRISE! </p>
                     <ol id="recepie2">
                         <li> First, in a highball glass filled with ice, pour in the tequila, lime juice, and orange juice. Then give everything a good stir. </li>
@@ -90,7 +97,7 @@
                     </ol>
             </section>
             <section class="Ques">
-                <img id="QUES" src="images/quesadilla.jpg" alt="QUES">
+                <a data-fancybox="gallery" href="Images/quesadilla.jpg"><img id="QUES" src="images/quesadilla.jpg" alt="QUES">
                 <p id="queshead"> HOW TO MAKE A QUESIDILLA! </p>
                 <ol id="recepie3">
                     <li> Heat vegetable oil in a large pan over medium heat. Sauté onions until soft. Add ground beef and spices, breaking up the meat with a wooden spoon. Stir occasionally and sauté until the meat cooked through. Remove pan from heat and drain excess fat. Season mixture with salt and pepper to taste. Clean pan and return over medium heat.</li>
@@ -145,7 +152,10 @@
                 $("#BUM").click(function(){
                     $("#queshead").show();
                 });
-            })
+                $("#Part1").hover(function() {
+        			$('#Part1 div').powerTip({ followMouse: true });
+        		});
+    });
         </script>
     </body>
 </html>

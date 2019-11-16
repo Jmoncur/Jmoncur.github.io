@@ -111,6 +111,10 @@ nav a {
     margin-bottom: 8px;
 }
 
+#Part1 {
+    background-color: red;
+}
+
 .grid_container1 {
     display: grid;
     margin-top: 30px;
