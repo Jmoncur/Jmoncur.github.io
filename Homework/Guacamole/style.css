@@ -111,8 +111,16 @@ nav a {
     margin-bottom: 8px;
 }
 
+#Part2 {
+    background-color: orange;
+}
+
 #Part1 {
-    background-color: red;
+    background-color: orange;
+}
+
+#Part3 {
+    background-color: orange;
 }
 
 .grid_container1 {
