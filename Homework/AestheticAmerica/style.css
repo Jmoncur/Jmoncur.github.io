@@ -1,7 +1,7 @@
 html, body {
-    background-color: #ffe699;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: #C0C0C0;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav a {
 
 h1 {
     text-align: center;
-    margin-top: 22%;
+    /* margin-top: 22%; */
     margin-bottom: 10%;
 }
 

@@ -3,3 +3,56 @@ html, body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+/* header {
+    background-image: url("images/biggie.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+} */
+#heading-main {
+    color: black;
+}
+
+.bigge {
+    width: 800px;
+    length: 400px;
+    margin-bottom: 20%;
+    background-image: url("images/biggie.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.grid-contain1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "high skl scks"
+        "yes we kno";
+}
+
+.contain1sub1 {
+    grid-area: high;
+}
+
+.contain1sub2 {
+    grid-area: skl;
+}
+
+.contain1sub3 {
+    grid-area: scks;
+}
+
+.contain1sub4 {
+    grid-area: yes;
+}
+
+.contain1sub5 {
+    grid-area: we;
+}
+
+.contain1sub6 {
+    grid-area: kno;
+}

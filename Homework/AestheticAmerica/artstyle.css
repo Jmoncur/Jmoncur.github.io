@@ -1,5 +1,11 @@
 html, body {
-    background-color: #ffe699;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.grid-contain3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
 }
