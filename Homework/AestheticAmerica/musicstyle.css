@@ -1,10 +1,13 @@
-html, body {
-    margin-left: 5%;
-    margin-right: 5%;
+header {
+    margin-top: 10%;
 }
 
-#heading-main {
-    color: white;
+.bey {
+    margin-top: 40%;
+}
+
+.drakey {
+    background-image: url(images/beyonce1.jpg);
 }
 
 .grid-contain1 {
