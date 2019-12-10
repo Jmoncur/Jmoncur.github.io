@@ -1,27 +1,10 @@
 html, body {
-    /* background-color: #556b2f; */
     margin-left: 5%;
     margin-right: 5%;
 }
 
-/* header {
-    background-image: url("images/biggie.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: contain;
-} */
 #heading-main {
-    color: black;
-}
-
-.bigge {
-    width: 800px;
-    length: 400px;
-    margin-bottom: 20%;
-    background-image: url("images/biggie.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    color: white;
 }
 
 .grid-contain1 {
