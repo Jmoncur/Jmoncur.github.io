@@ -16,9 +16,21 @@
         margin-left: 2%;
     }
 
+    ,
     .drakey {
         /* margin-right: 10%;
         margin-left: 10%; */
         background-size: contain;
+    }
+
+    .grid-contain1 {
+        display: grid;
+        text-align: center;
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "high"
+            "skl"
+            "scks";
     }
 }
