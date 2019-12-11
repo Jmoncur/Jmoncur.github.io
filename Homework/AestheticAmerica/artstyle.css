@@ -1,17 +1,20 @@
 h2 {
     font-size: 32px;
     text-align: center;
+    background-color: #FFCC66;
 }
 
 #ROLLS {
     width: 660px;
     height: 450px;
+    border: solid 2px red;
 }
 
-#ABOUTART {
+#aboutart {
     font-family: "Hin Madurai";
-    /* font-size: 24px; */
+    font-size: 22px;
     text-align: center;
+    border: solid 2px black;
 }
 
 .aleccc {

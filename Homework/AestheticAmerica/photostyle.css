@@ -1,11 +1,13 @@
 #jolpot {
     width: 350px;
     height: 450px;
+    border: solid #FFCC66 2px;
 }
 
 #SALYMA {
     width: 350px;
     height: 450px;
+    border: solid black 2px;
 }
 
 .photoy {

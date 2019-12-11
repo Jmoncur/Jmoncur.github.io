@@ -15,4 +15,39 @@
         margin-right: 2%;
         margin-left: 2%;
     }
+
+    .grid-contain2 {
+        display: grid;
+        margin-left: 2%;
+        margin-right: 8%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "ur just"
+            "in a"
+            "fools paradise";
+    }
+
+    .contain2sub1 {
+        grid-area: ur;
+    }
+
+    .contain2sub2 {
+        grid-area: just;
+    }
+
+    .contain2sub3 {
+        grid-area: in;
+    }
+
+    .contain2sub4 {
+        grid-area: a;
+    }
+
+    .contain2sub5 {
+        grid-area: fools;
+    }
+
+    .contain2subu6 {
+        grid-area: paradise;
+    }
 }
