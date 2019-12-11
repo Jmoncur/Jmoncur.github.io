@@ -15,4 +15,8 @@
         margin-right: 2%;
         margin-left: 2%;
     }
+
+    .drakey {
+        background-size: contain;
+    }
 }
