@@ -1,6 +1,26 @@
+#ROLLS {
+    width: 660px;
+    height: 450px;
+}
+
+.aleccc {
+    background-image: url(images/art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .grid-contain3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
     grid-template-areas:
+        "we party";
+}
+
+.contain3sub1 {
+    grid-area: we;
+}
+
+.contain3sub3 {
+    grid-area: party;
 }

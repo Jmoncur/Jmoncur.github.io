@@ -1,6 +1,47 @@
+#jolpot {
+    width: 350px;
+    height: 450px;
+}
+
+#SALYMA {
+    width: 350px;
+    height: 450px;
+}
+
+.photoy {
+    background-image: url(images/kendrick.jpg);
+    background-size: contain;
+}
+
 .grid-contain2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
+        "jolie can have"
+        "all of smoke";
+}
+
+.contain2sub1 {
+    grid-area: jolie;
+}
+
+.contain2sub2 {
+    grid-area: can;
+}
+
+.contain2sub3 {
+    grid-area: have;
+}
+
+.contain2sub4 {
+    grid-area: all;
+}
+
+.contain2sub5 {
+    grid-area: of;
+}
+
+.contain2subu6 {
+    grid-area: smoke;
 }

@@ -29,7 +29,9 @@ a, a :link {
 
 a:visited {
     text-decoration: line-through;
-    color: #33FF33;
+    font-weight: 900 bolder;
+    /* color: #33FF33; */
+    color: white;
 }
 
 a:hover {
@@ -42,8 +44,8 @@ a:active {
 
 h1 {
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 22%;
+    margin-top: 15%;
+    margin-bottom: 8%;
 }
 
 #heading-main {
