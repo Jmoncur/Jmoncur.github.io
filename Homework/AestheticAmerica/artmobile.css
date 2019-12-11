@@ -1,0 +1,17 @@
+@media only screen and (max-width:750px) {
+    html, body {
+        background: white;
+        margin-left: : 2%;
+        margin-right: 2%;
+    }
+
+    header {
+        width: auto;
+        height: 500px;
+    }
+
+    nav a {
+        text-align: center;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
