@@ -17,19 +17,25 @@
     }
 
     .drakey {
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 6;
+        margin-left: 6%;
         background-size: contain;
     }
 
     .grid-contain1 {
         display: grid;
         text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas:
             "high"
             "skl"
             "scks";
+    }
+
+    h1 {
+        margin-right: 6%;
     }
 
     .contain1sub1 {
