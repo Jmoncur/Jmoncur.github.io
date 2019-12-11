@@ -1,5 +1,17 @@
 @media only screen and (max-width:500px) {
     html, body {
         background: white;
+        margin-left: : 2%;
+        margin-right: 2%;
+    }
+
+    header {
+        width: auto;
+        height: 500px;
+    }
+
+    .beyonce {
+        background-image: url("images/beyonce2.jpg");
+        background-size: cover;
     }
 }
