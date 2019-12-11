@@ -19,6 +19,6 @@
     .beyonce {
         background-image: url("images/beyonce2.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 }
