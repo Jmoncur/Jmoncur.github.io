@@ -1,4 +1,4 @@
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:750px) {
     html, body {
         background: red;
         margin-left: : 2%;
@@ -19,5 +19,6 @@
     .beyonce {
         background-image: url("images/beyonce2.jpg");
         background-repeat: no-repeat;
+        background-size: cover;
     }
 }
