@@ -3,6 +3,7 @@ html, body {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 3%;
+    font-family: "Hind Madurai";
 }
 
 nav {
@@ -36,21 +37,26 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 a:active {
     text-decoration: underline;
 }
 
+#heading-main {
+    color: #FFCC66;
+    margin-bottom: 5%;
+}
+
+#minimain {
+    background-color: #FFCC66;
+}
+
 h1 {
     text-align: center;
     margin-top: 15%;
     margin-bottom: 8%;
-}
-
-#heading-main {
-    color: #FFCC66;
-    margin-bottom: 5%;
 }
 
 .beyonce {
