@@ -1,8 +1,8 @@
 @media only screen and (max-width:750px) {
     html, body {
         background: white;
-        margin-left: : 2%;
-        margin-right: 2%;
+        margin-left: : -20%;
+        margin-right: -20%;
     }
 
     header {
@@ -17,6 +17,8 @@
     }
 
     .drakey {
+        /* margin-right: 10%;
+        margin-left: 10%; */
         background-size: contain;
     }
 }
