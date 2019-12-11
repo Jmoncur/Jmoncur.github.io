@@ -16,8 +16,13 @@
         margin-left: 2%;
     }
 
+    #minimain {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .drakey {
-        margin-right: 8;
+        margin-right: 8%;
         margin-left: 8%;
         background-size: contain;
     }
@@ -32,10 +37,6 @@
             "high"
             "skl"
             "scks";
-    }
-
-    h1 {
-        margin-right: 5%;
     }
 
     .contain1sub1 {
