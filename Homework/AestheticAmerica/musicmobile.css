@@ -17,16 +17,16 @@
     }
 
     .drakey {
-        margin-right: 6;
-        margin-left: 6%;
+        margin-right: 8;
+        margin-left: 8%;
         background-size: contain;
     }
 
     .grid-contain1 {
         display: grid;
         text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas:
             "high"
@@ -35,7 +35,7 @@
     }
 
     h1 {
-        margin-right: 6%;
+        margin-right: 5%;
     }
 
     .contain1sub1 {
