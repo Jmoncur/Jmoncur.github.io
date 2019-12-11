@@ -1,6 +1,6 @@
 @media only screen and (max-width:750px) {
     html, body {
-        background: blue;
+        background: white;
         margin-left: : 2%;
         margin-right: 2%;
     }
@@ -18,7 +18,7 @@
 
     .beyonce {
         background-image: url("images/beyonce2.jpg");
-        /* background-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-size: contain;
-    } */
     }
+}
